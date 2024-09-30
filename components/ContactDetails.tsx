@@ -5,7 +5,10 @@ import { MdOutlineAccessTimeFilled } from "react-icons/md";
 
 const ContactDetails = () => {
   return (
-    <div className="flex md:flex-row flex-col items-center justify-between pt-10 p-3 bg-white">
+    <div
+      id="contact"
+      className="flex md:flex-row flex-col items-center justify-between pt-10 p-3 bg-white"
+    >
       <div className="gap-1 items-center justify-center flex flex-col">
         <FaLocationDot size={30} />
         <h3>Office Address</h3>
